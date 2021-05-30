@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2F771702658E70500C33AA4 /* Fitness_DashboarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F7716F2658E70500C33AA4 /* Fitness_DashboarApp.swift */; };
+		B2F771722658E70500C33AA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F771712658E70500C33AA4 /* ContentView.swift */; };
+		B2F771742658E70800C33AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F771732658E70800C33AA4 /* Assets.xcassets */; };
+		B2F771772658E70800C33AA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F771762658E70800C33AA4 /* Preview Assets.xcassets */; };
+		B2F771822658E70900C33AA4 /* Fitness_DashboarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F771812658E70900C33AA4 /* Fitness_DashboarTests.swift */; };
+		B2F7718D2658E70900C33AA4 /* Fitness_DashboarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F7718C2658E70900C33AA4 /* Fitness_DashboarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2F7717E2658E70800C33AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2F771642658E70500C33AA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2F7716B2658E70500C33AA4;
+			remoteInfo = "Fitness Dashboar";
+		};
+		B2F771892658E70900C33AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2F771642658E70500C33AA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2F7716B2658E70500C33AA4;
+			remoteInfo = "Fitness Dashboar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2F7716C2658E70500C33AA4 /* Fitness Dashboar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness Dashboar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F7716F2658E70500C33AA4 /* Fitness_DashboarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_DashboarApp.swift; sourceTree = "<group>"; };
+		B2F771712658E70500C33AA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2F771732658E70800C33AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2F771762658E70800C33AA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2F771782658E70800C33AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F7717D2658E70800C33AA4 /* Fitness DashboarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness DashboarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F771812658E70900C33AA4 /* Fitness_DashboarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_DashboarTests.swift; sourceTree = "<group>"; };
+		B2F771832658E70900C33AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F771882658E70900C33AA4 /* Fitness DashboarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness DashboarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F7718C2658E70900C33AA4 /* Fitness_DashboarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_DashboarUITests.swift; sourceTree = "<group>"; };
+		B2F7718E2658E70900C33AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2F771692658E70500C33AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F7717A2658E70800C33AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F771852658E70900C33AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2F771632658E70500C33AA4 = {
+			isa = PBXGroup;
+			children = (
+				B2F7716E2658E70500C33AA4 /* Fitness Dashboar */,
+				B2F771802658E70800C33AA4 /* Fitness DashboarTests */,
+				B2F7718B2658E70900C33AA4 /* Fitness DashboarUITests */,
+				B2F7716D2658E70500C33AA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2F7716D2658E70500C33AA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2F7716C2658E70500C33AA4 /* Fitness Dashboar.app */,
+				B2F7717D2658E70800C33AA4 /* Fitness DashboarTests.xctest */,
+				B2F771882658E70900C33AA4 /* Fitness DashboarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2F7716E2658E70500C33AA4 /* Fitness Dashboar */ = {
+			isa = PBXGroup;
+			children = (
+				B2F7716F2658E70500C33AA4 /* Fitness_DashboarApp.swift */,
+				B2F771712658E70500C33AA4 /* ContentView.swift */,
+				B2F771732658E70800C33AA4 /* Assets.xcassets */,
+				B2F771782658E70800C33AA4 /* Info.plist */,
+				B2F771752658E70800C33AA4 /* Preview Content */,
+			);
+			path = "Fitness Dashboar";
+			sourceTree = "<group>";
+		};
+		B2F771752658E70800C33AA4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B2F771762658E70800C33AA4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2F771802658E70800C33AA4 /* Fitness DashboarTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2F771812658E70900C33AA4 /* Fitness_DashboarTests.swift */,
+				B2F771832658E70900C33AA4 /* Info.plist */,
+			);
+			path = "Fitness DashboarTests";
+			sourceTree = "<group>";
+		};
+		B2F7718B2658E70900C33AA4 /* Fitness DashboarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2F7718C2658E70900C33AA4 /* Fitness_DashboarUITests.swift */,
+				B2F7718E2658E70900C33AA4 /* Info.plist */,
+			);
+			path = "Fitness DashboarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2F7716B2658E70500C33AA4 /* Fitness Dashboar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F771912658E70900C33AA4 /* Build configuration list for PBXNativeTarget "Fitness Dashboar" */;
+			buildPhases = (
+				B2F771682658E70500C33AA4 /* Sources */,
+				B2F771692658E70500C33AA4 /* Frameworks */,
+				B2F7716A2658E70500C33AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fitness Dashboar";
+			productName = "Fitness Dashboar";
+			productReference = B2F7716C2658E70500C33AA4 /* Fitness Dashboar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2F7717C2658E70800C33AA4 /* Fitness DashboarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F771942658E70900C33AA4 /* Build configuration list for PBXNativeTarget "Fitness DashboarTests" */;
+			buildPhases = (
+				B2F771792658E70800C33AA4 /* Sources */,
+				B2F7717A2658E70800C33AA4 /* Frameworks */,
+				B2F7717B2658E70800C33AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2F7717F2658E70800C33AA4 /* PBXTargetDependency */,
+			);
+			name = "Fitness DashboarTests";
+			productName = "Fitness DashboarTests";
+			productReference = B2F7717D2658E70800C33AA4 /* Fitness DashboarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2F771872658E70900C33AA4 /* Fitness DashboarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F771972658E70900C33AA4 /* Build configuration list for PBXNativeTarget "Fitness DashboarUITests" */;
+			buildPhases = (
+				B2F771842658E70900C33AA4 /* Sources */,
+				B2F771852658E70900C33AA4 /* Frameworks */,
+				B2F771862658E70900C33AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2F7718A2658E70900C33AA4 /* PBXTargetDependency */,
+			);
+			name = "Fitness DashboarUITests";
+			productName = "Fitness DashboarUITests";
+			productReference = B2F771882658E70900C33AA4 /* Fitness DashboarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2F771642658E70500C33AA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B2F7716B2658E70500C33AA4 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					B2F7717C2658E70800C33AA4 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B2F7716B2658E70500C33AA4;
+					};
+					B2F771872658E70900C33AA4 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B2F7716B2658E70500C33AA4;
+					};
+				};
+			};
+			buildConfigurationList = B2F771672658E70500C33AA4 /* Build configuration list for PBXProject "Fitness Dashboar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2F771632658E70500C33AA4;
+			productRefGroup = B2F7716D2658E70500C33AA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2F7716B2658E70500C33AA4 /* Fitness Dashboar */,
+				B2F7717C2658E70800C33AA4 /* Fitness DashboarTests */,
+				B2F771872658E70900C33AA4 /* Fitness DashboarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2F7716A2658E70500C33AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F771772658E70800C33AA4 /* Preview Assets.xcassets in Resources */,
+				B2F771742658E70800C33AA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F7717B2658E70800C33AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F771862658E70900C33AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2F771682658E70500C33AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F771722658E70500C33AA4 /* ContentView.swift in Sources */,
+				B2F771702658E70500C33AA4 /* Fitness_DashboarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F771792658E70800C33AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F771822658E70900C33AA4 /* Fitness_DashboarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F771842658E70900C33AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F7718D2658E70900C33AA4 /* Fitness_DashboarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2F7717F2658E70800C33AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2F7716B2658E70500C33AA4 /* Fitness Dashboar */;
+			targetProxy = B2F7717E2658E70800C33AA4 /* PBXContainerItemProxy */;
+		};
+		B2F7718A2658E70900C33AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2F7716B2658E70500C33AA4 /* Fitness Dashboar */;
+			targetProxy = B2F771892658E70900C33AA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B2F7718F2658E70900C33AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2F771902658E70900C33AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2F771922658E70900C33AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitness Dashboar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fitness Dashboar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neha.Fitness-Dashboar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2F771932658E70900C33AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitness Dashboar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fitness Dashboar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neha.Fitness-Dashboar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2F771952658E70900C33AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fitness DashboarTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neha.Fitness-DashboarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitness Dashboar.app/Fitness Dashboar";
+			};
+			name = Debug;
+		};
+		B2F771962658E70900C33AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fitness DashboarTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neha.Fitness-DashboarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitness Dashboar.app/Fitness Dashboar";
+			};
+			name = Release;
+		};
+		B2F771982658E70900C33AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fitness DashboarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neha.Fitness-DashboarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fitness Dashboar";
+			};
+			name = Debug;
+		};
+		B2F771992658E70900C33AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fitness DashboarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neha.Fitness-DashboarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fitness Dashboar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2F771672658E70500C33AA4 /* Build configuration list for PBXProject "Fitness Dashboar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F7718F2658E70900C33AA4 /* Debug */,
+				B2F771902658E70900C33AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F771912658E70900C33AA4 /* Build configuration list for PBXNativeTarget "Fitness Dashboar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F771922658E70900C33AA4 /* Debug */,
+				B2F771932658E70900C33AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F771942658E70900C33AA4 /* Build configuration list for PBXNativeTarget "Fitness DashboarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F771952658E70900C33AA4 /* Debug */,
+				B2F771962658E70900C33AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F771972658E70900C33AA4 /* Build configuration list for PBXNativeTarget "Fitness DashboarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F771982658E70900C33AA4 /* Debug */,
+				B2F771992658E70900C33AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2F771642658E70500C33AA4 /* Project object */;
+}
